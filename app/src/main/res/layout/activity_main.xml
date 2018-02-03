@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/bkg"
     tools:context="com.example.binh_pc.musicapp.MainActivity">
-    <android.support.v7.widget.Toolbar
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </android.support.v7.widget.Toolbar>
     <RelativeLayout
         android:padding="10dp"
         android:id="@+id/rtlTop"
@@ -38,7 +33,7 @@
         <ImageView
             android:contentDescription="@string/Logo"
             android:id="@+id/imgVLogo"
-            android:src="@drawable/logo"
+            android:src="@drawable/logo0"
             android:layout_width="match_parent"
             android:layout_height="200dp"/>
         <LinearLayout
