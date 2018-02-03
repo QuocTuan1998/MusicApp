@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="name">MyMusic</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="Logo">Logo</string>
+    <string name="Email">Email</string>
+    <string name="facebook">Sign Up with Facebook</string>
+</resources>
