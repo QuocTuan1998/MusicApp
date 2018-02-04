@@ -7,4 +7,6 @@
     <string name="Logo">Logo</string>
     <string name="Email">Email</string>
     <string name="facebook">Sign Up with Facebook</string>
+    <string name="album">album</string>
+    <string name="dow">btnDown</string>
 </resources>
