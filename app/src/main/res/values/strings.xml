@@ -9,4 +9,10 @@
     <string name="facebook">Sign Up with Facebook</string>
     <string name="album">album</string>
     <string name="dow">btnDown</string>
+    <string name="btnimg">btndown</string>
+    <string name="bgr">background</string>
+    <string name="fnum">0:01</string>
+    <string name="lnum">-5:30</string>
+    <string name="froot">Froot</string>
+    <string name="marina">Marina and The Diamonds - FROOT</string>
 </resources>

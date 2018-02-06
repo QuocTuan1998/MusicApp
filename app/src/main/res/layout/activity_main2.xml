@@ -5,22 +5,107 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.binh_pc.musicapp.Main2Activity">
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:contentDescription="@string/bgr"
+            android:src="@drawable/album1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+        <ImageButton
+            android:contentDescription="@string/btnimg"
+            android:background="@android:color/transparent"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_arrow_drop_down_circle_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_below="@+id/top"
+        android:background="#aeaeae"
+        android:layout_width="match_parent"
+        android:layout_height="7dp">
+    </RelativeLayout>
     <LinearLayout
         android:orientation="vertical"
+        android:background="#d9d9d9"
+        android:layout_below="@+id/center"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <ImageView
-                android:src="@drawable/album1"
-                android:layout_width="match_parent"
-                android:layout_height="300dp" />
-            <ImageButton
-                android:layout_margin="20dp"
-                android:src="@drawable/ic_arrow_drop_down_circle_black_24dp"
+            <TextView
+                android:text="@string/fnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:text="@string/lnum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </RelativeLayout>
+        <TextView
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="@string/froot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="@string/marina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@drawable/ic_fast_rewind_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@drawable/ic_pause_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@drawable/ic_fast_forward_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_volume_mute_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.v4.widget.ContentLoadingProgressBar
+                android:layout_marginTop="12dp"
+                android:background="#7b7b7b"
+                android:layout_width="250dp"
+                android:layout_height="7dp" />
+            <ImageView
+                android:src="@drawable/ic_volume_up_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>
