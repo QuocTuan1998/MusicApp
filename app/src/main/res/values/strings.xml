@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MusicApp</string>
     <string name="name">MyMusic</string>
+    <string name="appname">My Music</string>
     <string name="Login">Login</string>
     <string name="Password">Password</string>
     <string name="Username">Username</string>
@@ -15,4 +16,7 @@
     <string name="lnum">-5:30</string>
     <string name="froot">Froot</string>
     <string name="marina">Marina and The Diamonds - FROOT</string>
+    <string name="song">New Song</string>
+    <string name="topsong">Top</string>
+    <string name="hello">Acoustic</string>
 </resources>

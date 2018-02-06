@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.binh_pc.musicapp.Main3Activity">
+    <android.support.v7.widget.Toolbar
+        android:background="#5198ef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/appname"
+                android:textSize="24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.SearchView
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.SearchView>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:background="#262626"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="15dp"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="@string/song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="#ff3131"
+                android:layout_alignParentRight="true"
+                android:text="more"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:background="#747474"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </RelativeLayout>
+        <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_centerInParent="true"
+            android:background="#fff"
+            android:textColor="#ff3131"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:text="@string/topsong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
